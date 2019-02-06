@@ -1,27 +1,48 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "invocationName": "hello world",
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "HelloWorldIntent",
-          "samples": [
-            "hello"
-          ]
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "what can i grow",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name":"GetFoodForDateIntent",
+                    "slots":[
+                        {
+                            "name":"when",
+                            "type":"AMAZON.DATE"
+                        }
+                    ],
+                    "samples":[
+                        "{when}"
+                    ]
+                },
+                {
+                    "name":"GetFoodForMonthIntent",
+                    "slots":[
+                        {
+                            "name":"month",
+                            "type":"AMAZON.Month"
+                        }
+                    ],
+                    "samples":[
+                        "in {month}",
+                        "in the month of {month}",
+                        "durring {month}"
+                    ]
+                }
+            ],
+            "types":[]
         }
-      ]
     }
-  }
 }

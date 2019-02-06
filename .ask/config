@@ -1,9 +1,33 @@
 {
   "deploy_settings": {
-    "default": {
-      "skill_id": "",
+    "rogers": {
+      "skill_id": "amzn1.ask.skill.195620fe-8278-47b3-b349-0ad98fba3d9e",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "2df87424a379a801e12310ff2b3f57a6"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "dfc62f29c996f8e4c7380e56588ac3da"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:153587598101:function:ask-custom-what-can-i-grow-rogers",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-what-can-i-grow-rogers",
+            "handler": "index.handler",
+            "revisionId": "04b864ae-6db0-417c-80ab-d6c7ef1fe572",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
     }
   }
 }
