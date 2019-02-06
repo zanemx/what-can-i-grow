@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexa/skill-sample-nodejs-hello-world.git"
+    "url": "git+https://github.com/zanemx/what-can-i-grow.git"
   },
   "author": "zanemx@gmail.com",
   "license": "ISC",
