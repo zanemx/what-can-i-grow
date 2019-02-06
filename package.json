@@ -1,0 +1,27 @@
+{
+  "name": "what-can-i-grow",
+  "version": "1.0.0",
+  "description": "'alexa skill that reports what you can grow in your region'",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {
+    "async": "^2.6.1",
+    "osmosis": "^1.1.8"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexa/skill-sample-nodejs-hello-world.git"
+  },
+  "author": "zanemx@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexa/skill-sample-nodejs-hello-world/issues"
+  },
+  "homepage": "https://github.com/alexa/skill-sample-nodejs-hello-world#readme"
+}

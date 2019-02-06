@@ -1,0 +1,16 @@
+module.exports = {
+    beans:{ name:'beans' },
+    beets:{name:'beets'},
+    broccoli:{name:'broccoli'},
+    'brussel sprouts':{name:'brussel sprouts'},
+    cabbage:{name:'cabbage'},
+    carrots:{name:'carrots'},
+    cauliflower:{name:'cauliflower'},
+    cucumber:{name:'cucumber'},
+    kale:{name:'kale'},
+    lettuce:{name:'lettuce'},
+    peas:{name:'peas'},
+    peppers:{name:'peppers'},
+    spinach:{name:'spinach'},
+    tomato:{name:'tomato'},
+};
